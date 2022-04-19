@@ -21,20 +21,66 @@ In preparation for this workshop, you will need to have an R Studio Cloud accoun
 
 ![Title Change](image2.png)
 
- - Lastly, install and activate both the “tidyverse” and “tokenizers” packages.  This may take a couple of minutes.  Make sure to wait until one is completed before running the next.
+ - Lastly, install and activate both the "tidyverse" and "tokenizers" packages.  This may take a couple of minutes.  Make sure to wait until one is completed before running the next.
 
 ![Packages to Install](image3.png)
 
  - And thats it!  You are all set for the workshop
 
-## Helpful Materials
-Add in any helpful resources, code snippets, cheat sheets, or other relevant information here.
+----
+## Workshop Tasks
 
+**Task Set #1**  
+
+1. Create a variable called "text" using the following code:  
+
+```R
+text <- paste("You will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday, and my first task is to assure my dear sister of my welfare and increasing confidence in the success of my undertaking")  
+```
+
+2. Create a variable containing the above text tokenized into words  (Remember that the tokenizer makes a list of lists)  
+3. Find out how long your new list of words is using the length function  
+4. Turn your list of words into a data frame (remember to make it into a table first)  
+5. Arrange your data frame so the most common words are listed first  
+6. When you are done type "GOT IT!!" into the chat  
+
+  
+**Task Set #2**  
+
+1. Tokenize the paragraph in the "text" variable into sentences and pull out just the list  
+2. Tokenize your sentences into lists of words  
+3. Use the "sapply" function to find the length of each list of words  
+4. When you are done type "TOKENIZED!!" into the chat  
+
+  
+**Task Set #3**  
+
+1. Use the code below to load in the full text of the book "Frankenstein"  
+
+```R
+text <- paste(readLines("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Analysis/master/frankenstein.txt"),collapse = "\n")  
+```
+
+2. Using your code from before, tokenize the book into words and then turn it into a dataframe arranged by count  
+3. Use the code below to load in the word frequency dataset  
+
+```R
+wordfreq <- read_csv("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Analysis/master/wordfrequency.csv")  
+```
+
+4. Join the two datasets together to get frequency values for each word in the book  
+5. Filter your results to remove the stopwords. (Try out different frequency values to see more or less common words)  
+6. Type "STOPWORDS ELIMINATED" into the chat when you are done  
+
+
+----
 ## Follow Up Material
-Add in names of books, links to websites, or any other reccomendations for follow up materials that could represent the "Next Step" in an attendees learning after the workshop.  helpful links like the Programming Historians or W3Schools are good examples.
+If you are looking to continue enhancing your knowledge of R, check out our other R workshops or try out one of the options below!
 
- 
- 
+[YaRrr! The Pirate's Guide to R](https://bookdown.org/ndphillips/YaRrr/)   
+  
+[W3Schools R Tutorial](https://www.w3schools.com/r/default.asp)
+  
  
 
   
