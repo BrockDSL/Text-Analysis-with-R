@@ -6,6 +6,10 @@ In this workshop you will learn about the basics of doing text analysis with the
 - Tokenizing a corpus of text
 - Learning about stopwords and how to deal with them
 - Learning the basics of doing word frequency analysis
+
+*Estimated workshop length: 2 hours*
+
+
 ----
 ## Setup Instructions
 In preparation for this workshop, you will need to have an R Studio Cloud account and have a new project open.  Follow the steps below to get set up.
