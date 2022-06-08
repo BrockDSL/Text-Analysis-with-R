@@ -76,12 +76,34 @@ wordfreq <- read_csv("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Anal
 5. Filter your results to remove the stopwords. (Try out different frequency values to see more or less common words)  
 6. Type "STOPWORDS ELIMINATED" into the chat when you are done  
 
+**Task Set 4**
+
+1. Make a function that takes in a variable containing text and outputs a dataframe filtered to remove stopwords.
+2. Try out your new function by running on the text variable.
+3. (optional) Try out the function on some of these other books using the code below to build the variables.  
+  
+```R
+dracula_text <- paste(readLines("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Analysis/master/dracula.txt"),collapse = "\n")
+```  
+  
+```R
+prideandprejudice_text <- paste(readLines("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Analysis/master/prideandprejudice.txt"),collapse = "\n")
+```  
+  
+```R
+gatsby_text <- paste(readLines("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Analysis/master/greatgatsby.txt"),collapse = "\n")
+```  
+  
+4. When you are done type “TEXT ANALYSIS MASTERED!!!” in the chat.
+
 
 ----
 ## Follow Up Material
 If you are looking to continue enhancing your knowledge of R, check out our other R workshops or try out one of the options below!
 
 [YaRrr! The Pirate's Guide to R](https://bookdown.org/ndphillips/YaRrr/)   
+  
+[Programming Historians R Text Analysis](https://programminghistorian.org/en/lessons/basic-text-processing-in-r)
   
 [W3Schools R Tutorial](https://www.w3schools.com/r/default.asp)
   
