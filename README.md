@@ -37,17 +37,17 @@ In preparation for this workshop, you will need to have an R Studio Cloud accoun
 **Task Set #1**  
 
 1. Create a variable called "text" using the following code:  
-
-```R
-text <- paste("You will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday, and my first task is to assure my dear sister of my welfare and increasing confidence in the success of my undertaking")  
-```
-
+  
+```R  
+text <- paste("You will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday, and my first task is to assure my dear sister of my welfare and increasing confidence in the success of my undertaking")   
+```  
+  
 2. Create a variable containing the above text tokenized into words  (Remember that the tokenizer makes a list of lists)  
 3. Find out how long your new list of words is using the length function  
 4. Turn your list of words into a data frame (remember to make it into a table first)  
 5. Arrange your data frame so the most common words are listed first  
 6. When you are done type "GOT IT!!" into the chat  
-
+  
   
 **Task Set #2**  
 
@@ -60,18 +60,18 @@ text <- paste("You will rejoice to hear that no disaster has accompanied the com
 **Task Set #3**  
 
 1. Use the code below to load in the full text of the book "Frankenstein"  
-
-```R
-text <- paste(readLines("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Analysis/master/frankenstein.txt"),collapse = "\n")  
-```
-
-2. Using your code from before, tokenize the book into words and then turn it into a dataframe arranged by count  
+  
+```R  
+text <- paste(readLines("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Analysis/master/frankenstein.txt"),collapse = "\n")   
+```  
+  
+2. Using your code from before, tokenize the book into words and then turn it into a dataframe arranged by count   
 3. Use the code below to load in the word frequency dataset  
-
-```R
-wordfreq <- read_csv("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Analysis/master/wordfrequency.csv")  
-```
-
+  
+```R  
+wordfreq <- read_csv("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Analysis/master/wordfrequency.csv")   
+```  
+  
 4. Join the two datasets together to get frequency values for each word in the book  
 5. Filter your results to remove the stopwords. (Try out different frequency values to see more or less common words)  
 6. Type "STOPWORDS ELIMINATED" into the chat when you are done  
@@ -82,19 +82,19 @@ wordfreq <- read_csv("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Anal
 2. Try out your new function by running on the text variable.
 3. (optional) Try out the function on some of these other books using the code below to build the variables.  
   
-```R
-dracula_text <- paste(readLines("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Analysis/master/dracula.txt"),collapse = "\n")
+```R  
+dracula_text <- paste(readLines("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Analysis/master/dracula.txt"),collapse = "\n")  
 ```  
   
-```R
-prideandprejudice_text <- paste(readLines("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Analysis/master/prideandprejudice.txt"),collapse = "\n")
+```R  
+prideandprejudice_text <- paste(readLines("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Analysis/master/prideandprejudice.txt"),collapse = "\n")  
 ```  
   
-```R
-gatsby_text <- paste(readLines("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Analysis/master/greatgatsby.txt"),collapse = "\n")
+```R  
+gatsby_text <- paste(readLines("https://raw.githubusercontent.com/BrockDSL/R_for_Text_Analysis/master/greatgatsby.txt"),collapse = "\n")  
 ```  
   
-4. When you are done type “TEXT ANALYSIS MASTERED!!!” in the chat.
+4. When you are done type “TEXT ANALYSIS MASTERED!!!” in the chat.  
 
 
 ----
