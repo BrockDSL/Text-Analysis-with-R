@@ -38,9 +38,9 @@ In preparation for this workshop, you will need to have an R Studio Cloud accoun
 
 1. Create a variable called "text" using the following code:  
   
-```R  
-text <- paste("You will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday, and my first task is to assure my dear sister of my welfare and increasing confidence in the success of my undertaking")   
-```  
+  ```R  
+  text <- paste("You will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday, and my first task is to assure my dear sister of my welfare and increasing confidence in the success of my undertaking")   
+  ```  
   
 2. Create a variable containing the above text tokenized into words  (Remember that the tokenizer makes a list of lists)  
 3. Find out how long your new list of words is using the length function  
