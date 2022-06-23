@@ -33,7 +33,11 @@ In preparation for this workshop, you will need to have an R Studio Cloud accoun
 
 ----
 ## Workshop Tasks
-
+  
+  
+<iframe src="https://h5pstudio.ecampusontario.ca/h5p/18417/embed" width="993" height="584" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
+  
+  
 **Task Set #1**  
 
 1. Create a variable called "text" using the following code:  
