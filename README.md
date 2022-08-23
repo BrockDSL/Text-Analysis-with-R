@@ -2,10 +2,9 @@
 
 
 # Text Analysis with R
-In this workshop you will learn about the basics of doing text analysis with the R programming language.  This includes:
-- Tokenizing a corpus of text
-- Learning about stopwords and how to deal with them
-- Learning the basics of doing word frequency analysis
+This workshop introduces the basics of performing simple text analysis using the R programming language.  Attendees will learn about tokenizing a corpus of text, what stopwords are and how to deal with them, and finally how to do basic frequency analysis.
+
+A basic understanding of the R programming language is reccomended for this workshop.
 
 *Estimated workshop length: 2 hours*
 
