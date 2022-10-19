@@ -29,7 +29,15 @@ In preparation for this workshop, you will need to have an R Studio Cloud accoun
 
  - Lastly, install and activate both the "tidyverse" and "tokenizers" packages.  This may take a couple of minutes.  Make sure to wait until one is completed before running the next.
 
-![Packages to Install](image3.png)
+![Packages to Install](image3.png)  
+  
+    ```R
+    install.packages("tidyverse")
+    install.packages("tokenizers")
+    
+    library(tidyverse)
+    library(tokenizers)
+    ```
 
  - And thats it!  You are all set for the workshop
 
