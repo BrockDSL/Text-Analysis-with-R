@@ -31,13 +31,15 @@ In preparation for this workshop, you will need to have an R Studio Cloud accoun
 
 ![Packages to Install](image3.png)  
   
-    ```R
+```R  
+    
     install.packages("tidyverse")
     install.packages("tokenizers")
     
     library(tidyverse)
-    library(tokenizers)
-    ```
+    library(tokenizers)  
+    
+```
 
  - And thats it!  You are all set for the workshop
 
