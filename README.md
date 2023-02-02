@@ -14,10 +14,10 @@ A basic understanding of the R programming language is recommended for this work
 
 ----
 ## Setup Instructions
-In preparation for this workshop, you will need to have an R Studio Cloud account and have a new project open.  Follow the steps below to get set up.
+In preparation for this workshop, you will need to have a Posit account (previously was an R Studio Cloud account) and have a new R Studio project open on Posit Cloud.  Follow the steps below to get set up.
 
-- (Skip this step if you already have an R Studio Cloud account) Begin by going to [https://rstudio.cloud/](https://rstudio.cloud/) and signing up for an account by clicking on the "Sign Up" text at the top right of the screen, then click the grey "Sign Up" button and fill in the form (or use the convenient Google or GitHub options if you have one of those accounts)
-- Log in to R Studio Cloud
+- (Skip this step if you already have an Posit account) Begin by going to [https://posit.cloud/](https://posit.cloud/) and signing up for an account by clicking on the "Sign Up" text at the top right of the screen, then click the grey "Sign Up" button and fill in the form (or use the convenient Google or GitHub options if you have one of those accounts)
+- Log in to Posit
 - You should arrive at your workspace.  From here click on the button that says, "New Project" and select "New R Studio Project"
 - Once your project has finished building, open the "Source" window by clicking on the double box symbol in the top right corner of the "Console" window
 
